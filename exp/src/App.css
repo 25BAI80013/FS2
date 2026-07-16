@@ -1,0 +1,53 @@
+.container {
+  max-width: 600px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  resize: none;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.platforms {
+  margin: 10px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.counter {
+  font-size: 14px;
+  color: #333;
+}
+
+button {
+  margin-top: 10px;
+  margin-right: 5px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.draft-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+
+/* 🔥🔥🔥 MAIN FIX */
+.draft-text {
+  max-width: 100%;
+  overflow-wrap: anywhere;   /* modern fix */
+  word-break: break-word;    /* fallback */
+  white-space: pre-wrap;     /* keep formatting */
+}
+
+/* buttons */
+.btn-group {
+  margin-top: 8px;
+}
