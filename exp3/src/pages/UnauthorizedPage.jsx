@@ -1,0 +1,2 @@
+import { Link } from 'react-router-dom';
+export default function UnauthorizedPage() { return <div className="page-center"><section className="message-card"><div className="eyebrow">403 · ACCESS DENIED</div><h1>You don’t have permission for that page.</h1><p>Your role does not include access to this area.</p><Link className="primary link-button" to="/dashboard">Return to dashboard</Link></section></div>; }
