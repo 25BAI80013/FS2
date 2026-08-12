@@ -59,3 +59,17 @@ button {
   margin-bottom: 15px;
   border-radius: 8px;
 }
+.stats {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 160px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #1976d2;
+  color: white;
+  text-align: center;
+}
